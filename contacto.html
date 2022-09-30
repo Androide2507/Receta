@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <a href="index.html"><button>REGRESAR</button></a>
+    <form action="https://formspree.io/f/mdojznry" method="post">
+        <fieldset>
+            <legend>QUEJAS Y SUGERENCIAS</legend>
+            <label for="NOMBRE">NOMBRE</label>
+            <input id="NOMBRE" type="text" name="NOMBRE" maxlength="20" minlength="1" placeholder="Nombre(s) 1erApellido" required size="35"><br><br>
+            <label for="CORREO">CORREO</label>
+            <input id="CORREO" type="email" name="CORREO" maxlength="20" minlength="1" placeholder="nombre@gmail.com"><br><br>
+            <label for="TELEFONO">TELEFONO</label>
+            <input id="TELEFONO"  type="tell" name="TELEFONO" maxlength="10" minlength="1" placeholder="(55)-55-55-55-55-55" ><br><br>
+            SELECCIONA TU SEXO<br><br>
+            <label for="HOMBRE" >HOMBRE</label>
+            <input id="HOMBRE" type="radio" name="SEXO" value="HOMBRE">
+            <label for="MUJER">MUJER</label>
+            <input id="MUJER" type="radio" name="SEXO" value="MUJER">
+            <label for="OTRO">OTRO</label>
+            <input id="OTRO" type="radio" name="SEXO" value="OTRO"><br><br>
+                ¿TE ANIMASTE A HACER TU PIZZA ? DANOS TU CALIFICACION A LA RECETA <br><br> 
+                <select name="CALIFICACIÓN">
+                    <option value="1">1 de 10</option>
+                    <option value="2">2 de 10</option>
+                    <option value="3">3 de 10</option>
+                    <option value="4">4 de 10</option>
+                    <option value="5">5 de 10</option>
+                    <option value="6">6 de 10</option>
+                    <option value="7">7 de 10</option>
+                    <option value="8">8 de 10</option>
+                    <option value="9">9 de 10</option>
+                    <option value="10">10 de 10</option>
+                </select><br><br>
+            <label for="FECHA" >FECHA DE TU QUEJA/OPINION </label>
+            <input id="FECHA" type="date" name="FECHA" value="2022-09-29" min="2022-01-01" max="2025-01-01"><br><br>
+            <label for="FOTO" >MANDANOS UNA FOTO DE TU RESULTADO</label>
+            <input id="FOTO" type="file"><br><br>
+                <form>
+                    INGRESA ALGUN COMENTARIO O QUEJA:<br>
+                    <textarea name="Me gusto/No me gusto/Cambiari algo" i cols="30" rows="10"></textarea>
+                </form><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="BORRAR" >
+        </fieldset>
+    </form>
+</body>
+</html>
