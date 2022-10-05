@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+.centrado{
+    font-size: 40px;
+    background-color: yellow;
+    text-align: center;
+}
+.subtitulo{
+    background-color: yellow;
+}
+.imagen{
+    text-align: center;
+}
+.texto{
+    color: antiquewhite;
+}
+.centrado1{
+    text-align: center;
+}
